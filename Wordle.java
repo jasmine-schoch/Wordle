@@ -1,16 +1,3 @@
-/*
- * psuedo code:
- * create functions to color code correct and wrong letters
- * create a random word generator
- * take input:
- * determine if it's a valid word > throw error
- * method to determine if each letter is correct
- * >>method returns -1,0 or 1 (wrong, present, correct)
- * if statements to attatch colors to each letter for output
- * 
- * not yet suitable for repeat letters
- */
-
 
   
 // Importing required classes
@@ -24,7 +11,7 @@ import java.util.Random;
 // Main class
 class Wordle {
 
-    public static final String DICTIONARY_FILE = "/Users/jasmineschoch/Documents/Projects/Wordle/five_letter_words.txt";
+    public static final String DICTIONARY_FILE = #INSERT PATH TO DICTIONARY FILE HERE;
   
     // Declaring ANSI_RESET so that we can reset the color
     public static final String ANSI_RESET = "\u001B[0m";
