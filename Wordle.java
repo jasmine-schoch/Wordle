@@ -11,7 +11,7 @@ import java.util.Random;
 // Main class
 class Wordle {
 
-    public static final String DICTIONARY_FILE = #INSERT PATH TO DICTIONARY FILE HERE;
+    public static final String DICTIONARY_FILE = #INSERT PATH TO DICTIONARY FILE HERE, given: five_letter_words.txt;
   
     // Declaring ANSI_RESET so that we can reset the color
     public static final String ANSI_RESET = "\u001B[0m";
